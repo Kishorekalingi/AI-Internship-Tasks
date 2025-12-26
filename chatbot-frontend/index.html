@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chatbot - Rule-Based Responses</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="chat-header">
+            <h1>🤖 AI ChatBot</h1>
+            <p>Rule-Based Responses Engine</p>
+        </div>
+        <div class="chat-messages" id="chatMessages">
+            <div class="welcome-message">
+                <p>Welcome! Start chatting with me.</p>
+                <p style="font-size: 0.85rem; margin-top: 10px;">Try: hello, how are you, help, thanks</p>
+            </div>
+        </div>
+        <div class="chat-input-area">
+            <input 
+                type="text" 
+                id="userInput" 
+                class="chat-input" 
+                placeholder="Type your message..."
+                autocomplete="off"
+            >
+            <button class="send-btn" onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script src="js/chatbot.js"></script>
+</body>
+</html>
